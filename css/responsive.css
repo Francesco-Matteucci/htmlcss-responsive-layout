@@ -49,3 +49,46 @@
         display: block;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .tiramisu-col .card {
+        display: flex;
+    }
+
+    #card-video {
+        flex-grow: 1;
+    }
+
+    .kcal {
+        flex-basis: 40%;
+    }
+
+    .fa-brands {
+        margin-right: 5px;
+    }
+
+    .social-links a {
+        margin: 0 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .social-links span {
+        display: inline;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
