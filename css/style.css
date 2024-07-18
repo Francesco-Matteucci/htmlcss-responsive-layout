@@ -3,3 +3,250 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Generics*/
+
+.container {
+    max-width: 576px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+main {
+    background-color: #F6F5F3;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/*Utils*/
+
+h1 {
+    font-family: 'Nerko One';
+    color: #FF9614;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #4E3969;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    width: 100%;
+    padding: 20px;
+}
+
+button {
+    color: white;
+    background-color: #F7972E;
+    font-size: 1.6rem;
+    font-weight: 200;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-left: 20px;
+    border: 0;
+}
+
+.b-border {
+    border-bottom: 1px solid #6d6d6d;
+}
+
+.sm-b-border {
+    width: 100px;
+    border-bottom: 3px solid #F7972E;
+    margin-bottom: 30px;
+}
+
+.fa-star {
+    color: #F7972E;
+}
+
+.fa-carrot {
+    margin-right: 5px;
+}
+
+/*Header*/
+
+header h1 {
+    text-align: center;
+}
+
+/*Main*/
+
+/*CAKE SECTION*/
+.card {
+    justify-content: space-between;
+}
+
+h2 span {
+    display: none;
+}
+
+
+#card-rating {
+    margin-top: 23px;
+    font-size: 1.6rem;
+}
+
+.kcal {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.kcal-container {
+    background-color: #F6F5F9;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+
+
+
+}
+
+.kcal-container .row {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#text-kcal {
+    background-color: #7B69A2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+#info-kcal {
+    color: #F7972E;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.type {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.recipe {
+    padding: 20px 0;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.recipe ul {
+    list-style-type: none;
+}
+
+li .fa-solid {
+    margin-right: 10px;
+    color: #F7972E;
+}
+
+/*SOCIAL LINKS SECTION*/
+
+.social-links {
+    justify-content: space-around;
+}
+
+.social-links a {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 40%;
+    box-shadow: 10px 13px 23px gray;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+.fa-facebook {
+    color: #1A77F3;
+}
+
+.fa-twitter {
+    color: #009EFF;
+}
+
+.fa-instagram {
+    color: #DD5F91;
+}
+
+.fa-pintarest {
+    color: #E62225;
+}
+
+.fa-youtube {
+    color: #E62222;
+}
+
+/*PRESENTATION SECTION*/
+
+.presentation h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.presentation-text {
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+
+.presentation-text img {
+    width: 45%;
+    float: left;
+    padding-right: 15px;
+    clear: both;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #7C69A4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+address {
+    font-style: normal;
+    line-height: 2;
+}
+
+.address-footer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.address-footer a {
+    color: #fff;
+    flex-basis: 25%;
+}
