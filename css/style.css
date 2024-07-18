@@ -25,6 +25,9 @@ img {
 }
 
 /*Utils*/
+.border {
+    border: 1px dashed red;
+}
 
 h1 {
     font-family: 'Nerko One';
@@ -35,7 +38,7 @@ h1 {
 
 h2 {
     color: #4E3969;
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding-top: 1rem;
 }
 
@@ -175,9 +178,12 @@ li .fa-solid {
 }
 
 .social-links a {
+    text-align: center;
     background-color: #fff;
-    padding: 10px 15px;
-    border-radius: 40%;
+    flex-basis: calc(25% - 40px);
+    margin: 0 35px;
+    padding: 5px 10px;
+    border-radius: 10px;
     box-shadow: 10px 13px 23px gray;
 }
 
@@ -203,6 +209,10 @@ li .fa-solid {
 
 .fa-youtube {
     color: #E62222;
+}
+
+.sponsor {
+    display: none;
 }
 
 /*PRESENTATION SECTION*/
